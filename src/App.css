@@ -4,3 +4,39 @@
   padding: 2rem;
   text-align: center;
 }
+
+.section{
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: black;
+}
+
+.section:last-of-type{
+  margin-bottom: 0;
+}
+
+.block{
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #1a1a1a;
+}
+
+.block__title, .block__stats{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.block__title span{
+  width: max-content;
+  text-wrap: nowrap;
+}
+
+.block h3{
+  font-size: 2rem;
+  margin: 0 20px 20px 0;
+  text-align: left;
+}
